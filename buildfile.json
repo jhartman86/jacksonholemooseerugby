@@ -1,14 +1,11 @@
 {
 	"project": {
-		"name": "CenterForTheArts",
-		"domains": "jhcenterforthearts.org"
+		"name": "JHMooseRugby",
+		"domains": "jhmooserugby.org"
 	},
 	"storage": {
 		"dirs": [
 			"web/application/files"
 		]
-	},
-	"composer": {
-		"workingDir": "web/concrete"
 	}
 }

@@ -16,6 +16,20 @@ VM_SETTINGS = {
 			owner: 'vagrant',
 			group: 'www-data',
 			mount_options: ['dmode=775,fmode=664']
-	    }
+	    },
+	    { # Ex. for setting up a writable directory for Concrete5
+            host_relative_path: '../web/application/config',
+            vm_absolute_path: '/home/vagrant/app/web/application/config',
+            owner: 'vagrant',
+            group: 'www-data',
+            mount_options: ['dmode=775,fmode=664']
+        },
+        { # Ex. for setting up a writable directory for Concrete5
+            host_relative_path: '../web/packages',
+            vm_absolute_path: '/home/vagrant/app/web/packages',
+            owner: 'vagrant',
+            group: 'www-data',
+            mount_options: ['dmode=775,fmode=664']
+        }
 	]
 }
